@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: url('imagen/banner.jpg') center center/cover no-repeat;
+  height: 70vh;
+}
+
+span{
+    margin-left: 15px;
+    color: #027669;
+}
+
+.hero h1, .hero p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.card-title {
+  color: #027669;
+}
+.carousel-inner, .carousel-item {
+  height: 85vh;
+}
+
+.img-carrusel {
+  object-position: center top;
+  width: 100%;
+  height: 85vh;               /* Ocupa el 85% del alto de la ventana */
+  object-fit: fill;          /* Cubre todo el contenedor, recorta si es necesario */
+  object-position: center;    /* Centra la imagen si se recorta */
+}
+.footer {
+  background-color: #374151;
+  color: #e5e7eb;
+  padding: 2rem 7rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.company-name {
+  font-size: 1.75rem;
+    color: #027669;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fafafa; 
+}
+
+
+.footer-right {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.newsletter .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #9ca3af;
+   line-height: 0.5;
+  padding-bottom: 0.75rem;
+}
+
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #6b7280;
+  margin: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+
+
+
